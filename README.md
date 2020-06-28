@@ -7,7 +7,7 @@ In order to improve and make a bit more interesting this miniproject I decided t
 For the first of the course's minitprojects ( [Demo Hotel Website Miniproject](https://github.com/dario-piotrowicz/ReactJS-CSS_demo_hotel_miniproject) ) the challenge was not to use the Create-React-App tool, JSX, Babel, Webpack, etc... (just plain HTML, CSS and Javascript), in the next one ( [Demo Fictional Company Website Miniproject](https://github.com/dario-piotrowicz/ReactJS-SCSS_demo_fictional-company_website_miniproject) ) the challenge was to setup the whole react application up by myself and configuring manually webpack and babel, for the third one ( [Demo NewsGrid Website Miniproject](https://github.com/dario-piotrowicz/ReactJS-SCSS_demo_newsGrid_website_miniproject) ) I did basically the same but also made it a typescript project.
 \
 \
-In this last project of the course (and this series of ReactJs implementations) I'm expanding upon what I did in the last, additional to the webpack, babel and typescript configurations I am adding Jest testing and PWA capabilities (those two are actually provided by defualt by Create-React-App, so it seems fitting to include them here).
+In this last project of the course (and this series of ReactJs implementations) I'm expanding upon what I did in the last, additional to the webpack, babel and typescript configurations I am adding Jest testing and Progressive Web App capabilities (those two are actually provided by default by Create-React-App, so it seems fitting to include them here).
 
 \
 Most of the UI designs and HTML/CSS are taken from the course, so that is not designed by me, what is 100% completely mine is the files structure, the aforementioned configration and the react aspects.
