@@ -1,0 +1,26 @@
+@import './common/scss/constants';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  background-color: hotpink;
+}
+
+a {
+  text-decoration: none;
+  color: $color-dark;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
