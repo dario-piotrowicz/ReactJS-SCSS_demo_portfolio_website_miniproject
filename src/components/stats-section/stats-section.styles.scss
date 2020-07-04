@@ -1,0 +1,39 @@
+@import '../../common/scss/constants';
+
+section#stats {
+  padding: 2rem 0;
+
+  .stats {
+    display: flex;
+
+    .stat-box {
+      text-align: center;
+      flex: 1;
+      line-height: 2;
+      padding: 3rem 0;
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .fa-icon {
+        display: inline-block;
+        color: $color-dark;
+        padding-bottom: 0.5rem;
+      }
+
+      &:nth-child(even) {
+        background-color: $color-light;
+      }
+
+      &:nth-child(odd) {
+        background-color: $color-medium;
+      }
+    }
+  }
+}
