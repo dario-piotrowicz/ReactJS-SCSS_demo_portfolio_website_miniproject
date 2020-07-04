@@ -1,0 +1,23 @@
+@import '../../common/scss/constants';
+
+footer#main-footer {
+  background-color: $color-dark;
+  color: #fff;
+  height: 5rem;
+
+  & > div {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .fa-icon {
+      transition: color 0.3s;
+      border-radius: 50%;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
