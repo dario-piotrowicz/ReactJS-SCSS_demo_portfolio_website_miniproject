@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import './header.styles.scss';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header: FunctionComponent = () => {
   return (
@@ -10,18 +11,24 @@ const Header: FunctionComponent = () => {
           <nav>
             <ul>
               <li>
-                <a href="#" className="active">
+                <NavLink to="/" exact activeClassName="active">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="#">About</a>
+                <NavLink to="/about" exact activeClassName="active">
+                  About
+                </NavLink>
               </li>
               <li>
-                <a href="#">Work</a>
+                <NavLink to="/work" exact activeClassName="active">
+                  Work
+                </NavLink>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <NavLink to="/contact" exact activeClassName="active">
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </nav>
@@ -30,9 +37,9 @@ const Header: FunctionComponent = () => {
           <div>
             <h1>I Am DP The Demo Portfolio</h1>
             <p>I specialize in portoflioing, demoing and demo portfolioing</p>
-            <a href="#" className="btn-light">
+            <Link to="/work" className="btn-light">
               View My Work
-            </a>
+            </Link>
           </div>
         </div>
       </div>
