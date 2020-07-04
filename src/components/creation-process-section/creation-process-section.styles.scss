@@ -22,6 +22,8 @@ section#creation-process {
     .process-step-box {
       flex: 1;
       margin: 1rem;
+      height: 20rem;
+      overflow: hidden;
 
       .icon-container {
         display: flex;
