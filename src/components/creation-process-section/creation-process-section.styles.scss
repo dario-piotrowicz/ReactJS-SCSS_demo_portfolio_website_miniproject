@@ -1,0 +1,68 @@
+@import '../../common/scss/constants';
+
+section#creation-process {
+  padding: 2rem 0;
+
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .steps {
+    display: flex;
+
+    .process-step-box {
+      flex: 1;
+      margin: 1rem;
+
+      .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        position: relative;
+        background-color: $color-dark;
+        color: #fff;
+        padding: 2rem;
+        height: 4rem;
+        width: 4rem;
+        transition: all 1s;
+
+        &:hover {
+          background-color: $color-primary;
+          height: 5rem;
+          width: 5rem;
+
+          .step-number {
+            background-color: $color-dark;
+          }
+        }
+
+        .step-number {
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 1.8rem;
+          background-color: $color-primary;
+          border-radius: 50%;
+          height: 1rem;
+          width: 1rem;
+          line-height: 1rem;
+          padding: 1rem;
+          transition: all 1s;
+        }
+      }
+    }
+  }
+}
