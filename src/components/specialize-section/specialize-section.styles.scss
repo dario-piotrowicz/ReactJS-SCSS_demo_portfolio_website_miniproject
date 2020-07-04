@@ -6,22 +6,27 @@ section#specialize {
   text-align: center;
 
   p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
   }
 
   .specializations {
     display: flex;
 
-    & > div {
+    .specialization-box {
       margin: 1rem;
       flex: 1;
-    }
 
-    .fa-icon {
-      display: inline-block;
-      color: $color-primary;
-      padding-bottom: 0.5rem;
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .fa-icon {
+        display: inline-block;
+        color: $color-primary;
+        padding-bottom: 0.5rem;
+      }
     }
   }
 }
