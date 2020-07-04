@@ -1,0 +1,60 @@
+@import '../../common/scss/constants.scss';
+
+#main-header {
+  background: url('/images/showcase.jpg') no-repeat center right / cover;
+  height: 100vh;
+  color: #fff;
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    nav ul {
+      display: flex;
+
+      li {
+        padding: 1rem 1.5rem;
+
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem;
+          border-bottom: 3px transparent solid;
+          transition: border-color 0.5s;
+
+          &:hover {
+            border-color: $color-medium;
+          }
+
+          &.active {
+            border-color: $color-primary;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+
+    h1 {
+      font-size: 4rem;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
