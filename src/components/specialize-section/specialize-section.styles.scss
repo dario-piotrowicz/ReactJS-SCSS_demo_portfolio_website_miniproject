@@ -1,0 +1,27 @@
+@import '../../common/scss/constants';
+
+section#specialize {
+  padding: 2rem 0;
+
+  text-align: center;
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .specializations {
+    display: flex;
+
+    & > div {
+      margin: 1rem;
+      flex: 1;
+    }
+
+    .fa-icon {
+      display: inline-block;
+      color: $color-primary;
+      padding-bottom: 0.5rem;
+    }
+  }
+}
