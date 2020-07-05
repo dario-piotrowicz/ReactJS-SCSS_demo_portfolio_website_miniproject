@@ -1,0 +1,48 @@
+@import '../../common/scss/constants';
+
+section#testimonials {
+  padding: 4rem 0;
+
+  h2,
+  .text-intro {
+    text-align: center;
+  }
+
+  .text-intro {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    display: flex;
+    align-items: stretch;
+
+    .testimonial-box {
+      flex: 1;
+      margin: 0.5rem;
+      padding: 0.3rem;
+      display: flex;
+      flex-direction: column;
+
+      .testimonial-text {
+        border: 1px solid $color-medium;
+        border-radius: 5px;
+        padding: 1rem;
+        flex: 1;
+        display: flex;
+        align-items: center;
+      }
+
+      .person-container {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+}
