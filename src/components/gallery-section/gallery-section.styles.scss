@@ -1,0 +1,92 @@
+@import '../../common/scss/constants';
+
+section#gallery {
+  $animation-bezier: cubic-bezier(0.2, 1, 0.3, 1);
+
+  text-align: center;
+  padding: 3rem 0;
+
+  .intro-text {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+
+    .gallery-item {
+      position: relative;
+      background-color: $color-primary;
+      overflow: hidden;
+
+      &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        background: inherit;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+        transition: transform 3s $animation-bezier;
+      }
+
+      .image {
+        display: flex;
+        transition: transform 750ms $animation-bezier;
+      }
+
+      &:hover {
+        &::after {
+          transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+        }
+
+        .image {
+          transform: scale(1.2);
+        }
+
+        .text {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .text {
+        color: $color-dark;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0;
+        align-items: center;
+        transform: translateY(-20%);
+        transition: opacity 500ms 350ms $animation-bezier,
+          transform 500ms 350ms $animation-bezier;
+
+        .text-wrap {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          .category {
+            text-transform: uppercase;
+          }
+
+          .title {
+            font-size: 2rem;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
