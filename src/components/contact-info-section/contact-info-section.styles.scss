@@ -1,0 +1,29 @@
+@import '../../common/scss/constants.scss';
+
+section#contact-info {
+  padding: 3rem 0;
+  background-color: $color-dark;
+
+  .content {
+    display: flex;
+
+    .contact-info-box {
+      flex: 1;
+      text-align: center;
+      color: #fff;
+
+      .fa-icon {
+        display: inline-block;
+        margin-bottom: 0.7rem;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
