@@ -1,0 +1,50 @@
+@import '../../common/scss/constants.scss';
+
+section#about-me {
+  padding: 3rem 1rem;
+  text-align: center;
+
+  .intro-text {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-areas: 'image text text';
+    column-gap: 1.2rem;
+    row-gap: 1.2rem;
+    align-items: center;
+
+    .bio-image {
+      grid-area: image;
+    }
+
+    .bio-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-self: stretch;
+      grid-area: text;
+      border-left: 3px solid $color-primary;
+      padding: 2rem;
+      background-color: $color-light;
+
+      .title {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .award {
+      padding: 2rem;
+      align-self: flex-start;
+
+      .fa-icon {
+        display: inline-block;
+        color: $color-primary;
+        margin: 1rem;
+      }
+    }
+  }
+}
