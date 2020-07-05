@@ -15,28 +15,33 @@
   cursor: pointer;
 }
 
+@mixin btn-base-hover {
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
 .btn {
   &-primary {
     @extend %btn-base;
     color: $color-dark;
     background-color: $color-primary;
+    @include btn-base-hover();
   }
 
   &-light {
     @extend %btn-base;
     color: $color-dark;
     background-color: $color-light;
+    @include btn-base-hover();
   }
 
   &-dark {
     @extend %btn-base;
     color: $color-light;
     background-color: $color-dark;
+    @include btn-base-hover();
   }
-}
-
-*[class^='btn-']:hover {
-  background-color: $color-primary;
 }
 
 .bottom-line {
