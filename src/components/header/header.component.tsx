@@ -1,10 +1,14 @@
 import React, { FunctionComponent } from 'react';
 import './header.styles.scss';
 import { Link, NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const Header: FunctionComponent = () => {
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   return (
-    <header id="main-header">
+    <header id="main-header" className={isHome ? '' : 'small'}>
       <div className="centering-container">
         <div className="top">
           <img className="logo" src="images/logo.png" alt="DP logo" />
@@ -33,7 +37,7 @@ const Header: FunctionComponent = () => {
             </ul>
           </nav>
         </div>
-        <div className="content">
+        <div className={`content ${isHome ? '' : 'hidden'}`}>
           <div>
             <h1>I Am DP The Demo Portfolio</h1>
             <p>I specialize in portoflioing, demoing and demo portfolioing</p>

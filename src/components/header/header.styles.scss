@@ -5,6 +5,11 @@
   height: 100vh;
   color: #fff;
 
+  &.small {
+    background: url('/images/showcase.jpg') no-repeat 20% 30% / cover;
+    height: 5.5rem;
+  }
+
   .logo {
     width: 70px;
     height: 70px;
@@ -55,6 +60,10 @@
     p {
       font-size: 1.3rem;
       margin-bottom: 2rem;
+    }
+
+    &.hidden {
+      display: none;
     }
   }
 }
