@@ -1,0 +1,62 @@
+@import '../../common/scss/constants.scss';
+
+section#contact-form {
+  padding: 3rem 0;
+  text-align: center;
+
+  .intro-text {
+    margin-bottom: 2rem;
+  }
+
+  form {
+    .text-fields {
+      display: grid;
+      grid-template-areas:
+        'name    email'
+        'subject phone'
+        'message message';
+      row-gap: 1.2rem;
+      column-gap: 1.2rem;
+      margin-bottom: 1.2rem;
+
+      .input {
+        &-name {
+          grid-area: name;
+        }
+        &-email {
+          grid-area: email;
+        }
+        &-subject {
+          grid-area: subject;
+        }
+        &-phone {
+          grid-area: phone;
+        }
+        &-message {
+          grid-area: message;
+        }
+      }
+
+      input,
+      textarea {
+        padding: 0.5rem 1rem;
+      }
+
+      textarea {
+        height: 9rem;
+        min-height: 5rem;
+        resize: vertical;
+      }
+    }
+
+    .submit-btn {
+      margin: 0.5rem auto;
+      width: 50%;
+      font-size: 1.2rem;
+
+      &:hover {
+        background-color: $color-primary;
+      }
+    }
+  }
+}
