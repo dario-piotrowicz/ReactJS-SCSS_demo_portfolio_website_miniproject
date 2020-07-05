@@ -41,22 +41,26 @@ const awards: AwardBoxParams[] = [
 const AboutMeSection: FunctionComponent = () => {
   return (
     <section id="about-me">
-      <h2 className="main-title">About Me</h2>
-      <div className="bottom-line" />
-      <p className="intro-text">Let me tell you a little bit about myself...</p>
-      <div className="content">
-        <img src="images/about.jpg" alt="me" className="bio-image" />
-        <div className="bio-text">
-          <h4 className="title">I am just a demo website</h4>
-          <p className="description">
-            I am just a simple demo wesite made for practice by a developer, the
-            one portraied in the image is not that developer, that it is what I
-            would look like if I were human.
-          </p>
+      <div className="centering-container">
+        <h2 className="main-title">About Me</h2>
+        <div className="bottom-line" />
+        <p className="intro-text">
+          Let me tell you a little bit about myself...
+        </p>
+        <div className="content">
+          <img src="images/about.jpg" alt="me" className="bio-image" />
+          <div className="bio-text">
+            <h4 className="title">I am just a demo website</h4>
+            <p className="description">
+              I am just a simple demo wesite made for practice by a developer,
+              the one portraied in the image is not that developer, that it is
+              what I would look like if I were human.
+            </p>
+          </div>
+          {awards.map((award, idx) => (
+            <AwardBox key={idx} {...award} />
+          ))}
         </div>
-        {awards.map((award, idx) => (
-          <AwardBox key={idx} {...award} />
-        ))}
       </div>
     </section>
   );
