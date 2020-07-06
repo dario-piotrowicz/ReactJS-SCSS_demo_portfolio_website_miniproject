@@ -19,11 +19,30 @@ section#creation-process {
   .steps {
     display: flex;
 
+    @media (max-width: 870px) {
+      flex-direction: column;
+    }
+
     .process-step-box {
       flex: 1;
       margin: 1rem;
       height: 25rem;
       overflow: hidden;
+
+      @media (max-width: 870px) {
+        flex: 0 0 19rem;
+        padding: 0 2rem;
+      }
+
+      @media (max-width: 450px) {
+        flex-basis: 20rem;
+        padding: 0 1rem;
+      }
+
+      @media (max-width: 400px) {
+        flex: 1;
+        padding: 0 0.5rem;
+      }
 
       .icon-container {
         display: flex;
@@ -41,10 +60,24 @@ section#creation-process {
         width: 4rem;
         transition: all 1s;
 
+        @media (max-width: 450px) {
+          height: 2.5rem;
+          width: 2.5rem;
+        }
+
         &:hover {
           background-color: $color-primary;
           height: 5rem;
           width: 5rem;
+
+          @media (max-width: 450px) {
+            height: 4rem;
+            width: 4rem;
+          }
+          @media (max-width: 400px) {
+            height: 2.5rem;
+            width: 2.5rem;
+          }
 
           .step-number {
             background-color: $color-dark;
@@ -63,6 +96,13 @@ section#creation-process {
           line-height: 1rem;
           padding: 1rem;
           transition: all 1s;
+
+          @media (max-width: 450px) {
+            font-size: 1.2rem;
+            height: 0.5rem;
+            width: 0.5rem;
+            line-height: 0.5rem;
+          }
         }
       }
     }

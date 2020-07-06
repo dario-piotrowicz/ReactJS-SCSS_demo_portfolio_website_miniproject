@@ -6,6 +6,10 @@ section#stats {
   .stats {
     display: flex;
 
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
+
     .stat-box {
       text-align: center;
       flex: 1;
