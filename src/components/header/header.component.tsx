@@ -11,7 +11,11 @@ const Header: FunctionComponent = () => {
     <header id="main-header" className={isHome ? '' : 'small'}>
       <div className="centering-container">
         <div className="top">
-          <img className="logo" src="images/logo.png" alt="DP logo" />
+          <div className="logo">
+            <Link to="/">
+              <img src="images/logo.png" alt="DP logo" />
+            </Link>
+          </div>
           <nav>
             <ul>
               <li>
