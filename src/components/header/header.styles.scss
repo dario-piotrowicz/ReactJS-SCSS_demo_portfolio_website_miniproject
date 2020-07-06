@@ -5,9 +5,21 @@
   height: 100vh;
   color: #fff;
 
+  @media (max-width: 800px) {
+    height: 30rem;
+  }
+  @media (max-width: 600px) {
+    height: 10rem;
+  }
+
   &.small {
     background: url('/images/showcase.jpg') no-repeat 20% 30% / cover;
     height: 5.5rem;
+
+    @media (max-width: 600px) {
+      background-position: center right;
+      height: 10rem;
+    }
   }
 
   .logo {
@@ -22,11 +34,20 @@
     justify-content: space-between;
     padding-top: 1rem;
 
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     nav ul {
       display: flex;
 
       li {
         padding: 1rem 1.5rem;
+
+        @media (max-width: 600px) {
+          padding: 0.9rem;
+        }
 
         a {
           color: #fff;
@@ -54,9 +75,20 @@
     text-align: center;
     height: 80vh;
 
+    @media (max-width: 800px) {
+      height: 23rem;
+    }
+    @media (max-width: 600px) {
+      display: none;
+    }
+
     h1 {
       font-size: 4rem;
       line-height: 1.2;
+
+      @media (max-width: 600px) {
+        font-size: 2.5rem;
+      }
     }
 
     p {
