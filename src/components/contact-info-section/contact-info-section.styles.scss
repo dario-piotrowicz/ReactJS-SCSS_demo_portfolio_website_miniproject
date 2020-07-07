@@ -7,10 +7,22 @@ section#contact-info {
   .content {
     display: flex;
 
+    @media (max-width: 780px) {
+      flex-direction: column;
+    }
+
     .contact-info-box {
       flex: 1;
       text-align: center;
       color: #fff;
+
+      @media (max-width: 780px) {
+        padding: 3rem 0;
+
+        &:not(:last-child) {
+          border-bottom: 2px dashed darken($color-medium, 50%);
+        }
+      }
 
       .fa-icon {
         display: inline-block;
