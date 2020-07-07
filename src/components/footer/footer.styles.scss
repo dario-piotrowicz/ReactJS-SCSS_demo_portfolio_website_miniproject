@@ -5,11 +5,26 @@ footer#main-footer {
   color: #fff;
   height: 5rem;
 
+  @media (max-width: 450px) {
+    height: 7rem;
+  }
+
   & > div {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 450px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        margin-bottom: 0.7rem;
+        text-align: center;
+      }
+    }
 
     .fa-icon a {
       color: #fff;
