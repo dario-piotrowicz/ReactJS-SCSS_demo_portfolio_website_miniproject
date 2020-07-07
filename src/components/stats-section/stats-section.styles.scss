@@ -16,6 +16,10 @@ section#stats {
       line-height: 2;
       padding: 3rem 0;
 
+      @media (max-width: 800px) {
+        padding: 1.7rem 0;
+      }
+
       h3 {
         font-size: 1.5rem;
       }
