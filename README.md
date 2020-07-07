@@ -17,4 +17,8 @@ Most of the UI designs and HTML/CSS are taken from the course, so that is not de
 &NewLine;
 
 ### Deployment
-Not yet deployed
+
+![Netlify Status](https://api.netlify.com/api/v1/badges/c6567f58-5d2f-467e-b001-e06cb802c9d7/deploy-status)
+
+The project has been deployed via netlify at the following link:\
+https://demo-portfolio-dp.netlify.app
