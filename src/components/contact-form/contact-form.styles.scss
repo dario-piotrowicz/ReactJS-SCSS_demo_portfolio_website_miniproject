@@ -19,6 +19,15 @@ section#contact-form {
       column-gap: 1.2rem;
       margin-bottom: 1.2rem;
 
+      @media (max-width: 600px) {
+        grid-template-areas:
+          'name'
+          'email'
+          'subject'
+          'phone'
+          'message';
+      }
+
       .input {
         &-name {
           grid-area: name;
