@@ -16,12 +16,20 @@ section#testimonials {
     display: flex;
     align-items: stretch;
 
+    @media (max-width: 880px) {
+      flex-direction: column;
+    }
+
     .testimonial-box {
       flex: 1;
       margin: 0.5rem;
       padding: 0.3rem;
       display: flex;
       flex-direction: column;
+
+      @media (max-width: 880px) {
+        padding: 1rem 0.5rem;
+      }
 
       .testimonial-text {
         border: 1px solid $color-medium;
