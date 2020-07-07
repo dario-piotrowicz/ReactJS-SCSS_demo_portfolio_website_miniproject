@@ -6,4 +6,14 @@ section#tagline {
   background-color: $color-primary;
   text-align: center;
   font-size: 2.5rem;
+
+  @media (max-width: 715px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 580px) {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 400px) {
+    font-size: 1.1rem;
+  }
 }
