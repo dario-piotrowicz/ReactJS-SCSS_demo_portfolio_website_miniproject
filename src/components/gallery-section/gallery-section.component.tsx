@@ -29,47 +29,47 @@ const GalleryItem: FunctionComponent<GalleryItemParams> = ({
 
 const galleryItems: GalleryItemParams[] = [
   {
-    imgSrc: 'images/gallery/item1.png',
+    imgSrc: 'images/gallery/item1.jpeg',
     title: 'Great Gradients',
     category: 'Design',
   },
   {
-    imgSrc: 'images/gallery/item2.png',
+    imgSrc: 'images/gallery/item2.jpeg',
     title: 'World Experience',
     category: 'UX/UI',
   },
   {
-    imgSrc: 'images/gallery/item3.png',
+    imgSrc: 'images/gallery/item3.jpeg',
     title: 'Vanishing',
     category: 'Design',
   },
   {
-    imgSrc: 'images/gallery/item4.png',
+    imgSrc: 'images/gallery/item4.jpeg',
     title: 'Gap Inc',
     category: 'Design',
   },
   {
-    imgSrc: 'images/gallery/item5.png',
+    imgSrc: 'images/gallery/item5.jpeg',
     title: 'Face The Experience',
     category: 'Mobile UI Design',
   },
   {
-    imgSrc: 'images/gallery/item6.png',
+    imgSrc: 'images/gallery/item6.jpeg',
     title: 'Bezier Curves',
     category: 'Design Concept',
   },
   {
-    imgSrc: 'images/gallery/item7.png',
+    imgSrc: 'images/gallery/item7.jpeg',
     title: 'Dock Ponder',
     category: 'Design',
   },
   {
-    imgSrc: 'images/gallery/item8.png',
+    imgSrc: 'images/gallery/item8.jpeg',
     title: 'Resturant App',
     category: 'Web Application',
   },
   {
-    imgSrc: 'images/gallery/item9.png',
+    imgSrc: 'images/gallery/item9.jpeg',
     title: 'FriendFeed',
     category: 'Social Network Concept',
   },
