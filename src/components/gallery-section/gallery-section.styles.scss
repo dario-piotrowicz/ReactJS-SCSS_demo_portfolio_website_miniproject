@@ -24,14 +24,13 @@ section#gallery {
 
     .gallery-item {
       position: relative;
-      background-color: $color-primary;
       overflow: hidden;
 
       &::after {
         content: '';
         position: absolute;
         display: block;
-        background: inherit;
+        background: $color-primary;
         opacity: 0.9;
         top: 0;
         left: 0;
