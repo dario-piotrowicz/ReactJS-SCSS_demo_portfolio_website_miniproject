@@ -68,9 +68,18 @@ exports[`header component should match its snapshot (in home) 1`] = `
       className="content "
     >
       <div>
-        <h1>
-          I Am DP The Demo Portfolio
-        </h1>
+        <TypeWriter
+          leadingFixedText="I Am DP The"
+          phrases={
+            Array [
+              "Demo Portfolio",
+              "Greatest Portfolio",
+              "Demo Portfolio Project",
+              "Demo Project",
+            ]
+          }
+          waitTime={3000}
+        />
         <p>
           I specialize in portoflioing, demoing and demo portfolioing
         </p>
@@ -154,9 +163,18 @@ exports[`header component should match its snapshot (in non-home pages) 1`] = `
       className="content hidden"
     >
       <div>
-        <h1>
-          I Am DP The Demo Portfolio
-        </h1>
+        <TypeWriter
+          leadingFixedText="I Am DP The"
+          phrases={
+            Array [
+              "Demo Portfolio",
+              "Greatest Portfolio",
+              "Demo Portfolio Project",
+              "Demo Project",
+            ]
+          }
+          waitTime={3000}
+        />
         <p>
           I specialize in portoflioing, demoing and demo portfolioing
         </p>
