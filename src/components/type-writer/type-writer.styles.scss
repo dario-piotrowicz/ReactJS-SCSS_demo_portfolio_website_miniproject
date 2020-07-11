@@ -1,0 +1,19 @@
+.type-writer {
+  .text {
+    padding-right: 0.5rem;
+    border-right: 0.25rem solid #fff;
+    animation: cursor-animation 0.7s infinite;
+  }
+
+  @keyframes cursor-animation {
+    0%,
+    35%,
+    65%,
+    100% {
+      border-right: 0.25rem solid #fff;
+    }
+    50% {
+      border-right: 0.25rem solid transparent;
+    }
+  }
+}

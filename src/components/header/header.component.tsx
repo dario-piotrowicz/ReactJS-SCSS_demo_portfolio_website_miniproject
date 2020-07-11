@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import './header.styles.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import TypeWriter from '../type-writer/type-writer.component';
 
 const Header: FunctionComponent = () => {
   const location = useLocation();
@@ -43,7 +44,16 @@ const Header: FunctionComponent = () => {
         </div>
         <div className={`content ${isHome ? '' : 'hidden'}`}>
           <div>
-            <h1>I Am DP The Demo Portfolio</h1>
+            <TypeWriter
+              leadingFixedText="I Am DP The"
+              waitTime={3000}
+              phrases={[
+                'Demo Portfolio',
+                'Greatest Portfolio',
+                'Demo Portfolio Project',
+                'Demo Project',
+              ]}
+            />
             <p>I specialize in portoflioing, demoing and demo portfolioing</p>
             <Link to="/work" className="btn-light">
               View My Work
