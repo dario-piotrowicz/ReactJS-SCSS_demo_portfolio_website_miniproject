@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contact page should match its snapshot 1`] = `
+<Fragment>
+  <ContactForm />
+  <ContactInfoSection />
+  <ContactTagline />
+</Fragment>
+`;
