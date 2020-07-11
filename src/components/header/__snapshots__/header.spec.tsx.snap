@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header component should match its snapshot (in home) 1`] = `
+<header
+  className=""
+  id="main-header"
+>
+  <div
+    className="centering-container"
+  >
+    <div
+      className="top"
+    >
+      <div
+        className="logo"
+      >
+        <Link
+          to="/"
+        >
+          <img
+            alt="DP logo"
+            src="images/logo.png"
+          />
+        </Link>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/"
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/about"
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/work"
+            >
+              Work
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div
+      className="content "
+    >
+      <div>
+        <h1>
+          I Am DP The Demo Portfolio
+        </h1>
+        <p>
+          I specialize in portoflioing, demoing and demo portfolioing
+        </p>
+        <Link
+          className="btn-light"
+          to="/work"
+        >
+          View My Work
+        </Link>
+      </div>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`header component should match its snapshot (in non-home pages) 1`] = `
+<header
+  className="small"
+  id="main-header"
+>
+  <div
+    className="centering-container"
+  >
+    <div
+      className="top"
+    >
+      <div
+        className="logo"
+      >
+        <Link
+          to="/"
+        >
+          <img
+            alt="DP logo"
+            src="images/logo.png"
+          />
+        </Link>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/"
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/about"
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/work"
+            >
+              Work
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              activeClassName="active"
+              exact={true}
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div
+      className="content hidden"
+    >
+      <div>
+        <h1>
+          I Am DP The Demo Portfolio
+        </h1>
+        <p>
+          I specialize in portoflioing, demoing and demo portfolioing
+        </p>
+        <Link
+          className="btn-light"
+          to="/work"
+        >
+          View My Work
+        </Link>
+      </div>
+    </div>
+  </div>
+</header>
+`;
