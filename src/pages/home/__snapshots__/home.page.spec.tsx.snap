@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page  should match its snapshot 1`] = `
+<Fragment>
+  <SpecializeSection />
+  <StatsSection />
+  <CreationProcessSection />
+</Fragment>
+`;
