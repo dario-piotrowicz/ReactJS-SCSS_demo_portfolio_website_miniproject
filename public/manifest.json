@@ -1,0 +1,15 @@
+{
+  "short_name": "Demo Portfolio",
+  "name": "Demo Portfolio DP",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "200x85"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffbc00",
+  "background_color": "#333"
+}
