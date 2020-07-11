@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, useEffect } from 'react';
 import './type-writer.styles.scss';
 
 interface TypeWriterParams {
@@ -49,8 +49,8 @@ const TypeWriter: FunctionComponent<TypeWriterParams> = ({
     }
   };
 
-  const typingFunction = () => {
-    setTimeout(() => {
+  const typingFunction = (): NodeJS.Timeout => {
+    return setTimeout(() => {
       const currentPhrase = phrases[typingState.currentPhraseIdx];
 
       if (typingState.isDeleting) {
@@ -61,15 +61,22 @@ const TypeWriter: FunctionComponent<TypeWriterParams> = ({
     }, 300 / (typingState.isDeleting ? 3 : 1));
   };
 
-  if (!typingState.inPause) {
-    typingFunction();
-  } else {
-    setTimeout(
-      () =>
-        setTypingState({ ...typingState, isDeleting: true, inPause: false }),
-      waitTime
-    );
-  }
+  useEffect(() => {
+    let timeout: NodeJS.Timeout = null;
+    if (!typingState.inPause) {
+      timeout = typingFunction();
+    } else {
+      timeout = setTimeout(
+        () =>
+          setTypingState({ ...typingState, isDeleting: true, inPause: false }),
+        waitTime
+      );
+    }
+
+    return () => {
+      if (timeout) clearTimeout(timeout);
+    };
+  }, [typingState]);
 
   return (
     <div className="type-writer">
