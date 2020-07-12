@@ -7,6 +7,7 @@ import HomePage from './pages/home/home.page.component';
 import AboutPage from './pages/about/about.page.component';
 import WorkPage from './pages/work/work.page.component';
 import ContactPage from './pages/contact/contact.page.component';
+import PageNotFound from './pages/page-not-found/page-not-found.page.component';
 
 const App: FunctionComponent = () => {
   const history = useHistory();
@@ -25,6 +26,9 @@ const App: FunctionComponent = () => {
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/work" component={WorkPage} />
         <Route exact path="/contact" component={ContactPage} />
+        <Route>
+          <PageNotFound />
+        </Route>
       </Switch>
       <Footer />
     </>

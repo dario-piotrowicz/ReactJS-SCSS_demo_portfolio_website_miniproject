@@ -13,6 +13,6 @@ const Root = () => {
 
 ReactDOM.render(<Root />, document.getElementById('root'));
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js');
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('sw.js');
+// }
