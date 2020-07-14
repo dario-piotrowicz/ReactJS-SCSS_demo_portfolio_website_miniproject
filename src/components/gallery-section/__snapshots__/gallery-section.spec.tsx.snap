@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gallery section component should match its snapshot 1`] = `
+<GallerySection>
+  <section
+    id="gallery"
+  >
+    <div
+      className="centering-container"
+    >
+      <h2>
+        My Work
+      </h2>
+      <div
+        className="bottom-line"
+      />
+      <p
+        className="intro-text"
+      >
+        Check out some of my projects
+      </p>
+      <div
+        className="content"
+      >
+        <GalleryItem
+          category="Design"
+          imgSrc="images/gallery/item1.jpeg"
+          key="0"
+          title="Great Gradients"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Great Gradients\\""
+                src="images/gallery/item1.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Design
+                </p>
+                <h2
+                  className="title"
+                >
+                  Great Gradients
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="UX/UI"
+          imgSrc="images/gallery/item2.jpeg"
+          key="1"
+          title="World Experience"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"World Experience\\""
+                src="images/gallery/item2.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  UX/UI
+                </p>
+                <h2
+                  className="title"
+                >
+                  World Experience
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Design"
+          imgSrc="images/gallery/item3.jpeg"
+          key="2"
+          title="Vanishing"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Vanishing\\""
+                src="images/gallery/item3.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Design
+                </p>
+                <h2
+                  className="title"
+                >
+                  Vanishing
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Design"
+          imgSrc="images/gallery/item4.jpeg"
+          key="3"
+          title="Gap Inc"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Gap Inc\\""
+                src="images/gallery/item4.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Design
+                </p>
+                <h2
+                  className="title"
+                >
+                  Gap Inc
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Mobile UI Design"
+          imgSrc="images/gallery/item5.jpeg"
+          key="4"
+          title="Face The Experience"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Face The Experience\\""
+                src="images/gallery/item5.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Mobile UI Design
+                </p>
+                <h2
+                  className="title"
+                >
+                  Face The Experience
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Design Concept"
+          imgSrc="images/gallery/item6.jpeg"
+          key="5"
+          title="Bezier Curves"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Bezier Curves\\""
+                src="images/gallery/item6.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Design Concept
+                </p>
+                <h2
+                  className="title"
+                >
+                  Bezier Curves
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Design"
+          imgSrc="images/gallery/item7.jpeg"
+          key="6"
+          title="Dock Ponder"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Dock Ponder\\""
+                src="images/gallery/item7.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Design
+                </p>
+                <h2
+                  className="title"
+                >
+                  Dock Ponder
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Web Application"
+          imgSrc="images/gallery/item8.jpeg"
+          key="7"
+          title="Resturant App"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"Resturant App\\""
+                src="images/gallery/item8.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Web Application
+                </p>
+                <h2
+                  className="title"
+                >
+                  Resturant App
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+        <GalleryItem
+          category="Social Network Concept"
+          imgSrc="images/gallery/item9.jpeg"
+          key="8"
+          title="FriendFeed"
+        >
+          <div
+            className="gallery-item"
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="image of \\"FriendFeed\\""
+                src="images/gallery/item9.jpeg"
+              />
+            </div>
+            <div
+              className="text"
+            >
+              <div
+                className="text-wrap"
+              >
+                <p
+                  className="category"
+                >
+                  Social Network Concept
+                </p>
+                <h2
+                  className="title"
+                >
+                  FriendFeed
+                </h2>
+              </div>
+            </div>
+          </div>
+        </GalleryItem>
+      </div>
+    </div>
+  </section>
+</GallerySection>
+`;
