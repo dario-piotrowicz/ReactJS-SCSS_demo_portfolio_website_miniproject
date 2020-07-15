@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`progress-bars section component should match its snapshot 1`] = `
+<ProgressBarsSection>
+  <section
+    id="progress-bars"
+  >
+    <div
+      className="centering-container"
+    >
+      <h2>
+        Languages Used
+      </h2>
+      <div
+        className="bottom-line"
+      />
+      <ProgressBox
+        key="0"
+        percentage={61.1}
+        title="Typescript"
+      >
+        <div
+          className="progress-box"
+        >
+          <h4>
+            Typescript
+            :
+          </h4>
+          <div
+            className="progress"
+          >
+            <div
+              style={
+                Object {
+                  "width": "61.1%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </ProgressBox>
+      <ProgressBox
+        key="1"
+        percentage={31.1}
+        title="CSS"
+      >
+        <div
+          className="progress-box"
+        >
+          <h4>
+            CSS
+            :
+          </h4>
+          <div
+            className="progress"
+          >
+            <div
+              style={
+                Object {
+                  "width": "31.1%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </ProgressBox>
+      <ProgressBox
+        key="2"
+        percentage={5.4}
+        title="Javascript"
+      >
+        <div
+          className="progress-box"
+        >
+          <h4>
+            Javascript
+            :
+          </h4>
+          <div
+            className="progress"
+          >
+            <div
+              style={
+                Object {
+                  "width": "5.4%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </ProgressBox>
+      <ProgressBox
+        key="3"
+        percentage={2.4}
+        title="HTML"
+      >
+        <div
+          className="progress-box"
+        >
+          <h4>
+            HTML
+            :
+          </h4>
+          <div
+            className="progress"
+          >
+            <div
+              style={
+                Object {
+                  "width": "2.4%",
+                }
+              }
+            />
+          </div>
+        </div>
+      </ProgressBox>
+    </div>
+  </section>
+</ProgressBarsSection>
+`;
