@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testimonials section component should match its snapshot 1`] = `
+<TestimonialsSection>
+  <section
+    id="testimonials"
+  >
+    <div
+      className="centering-container"
+    >
+      <h2>
+        Testimonials
+      </h2>
+      <div
+        className="bottom-line"
+      />
+      <p
+        className="text-intro"
+      >
+        Take a look at what my (totally real) clients say...
+      </p>
+      <div
+        className="content"
+      >
+        <TestimonialBox
+          key="0"
+          person={
+            Object {
+              "imgSrc": "images/testimonials/person1.jpg",
+              "location": "Somewhere",
+              "name": "Beard Guy",
+            }
+          }
+          text="
+    Wow this demo project is really cool and well made, I would be shocked to hear that a single
+    developer did it!
+    "
+        >
+          <div
+            className="testimonial-box"
+          >
+            <p
+              className="testimonial-text"
+            >
+              
+    Wow this demo project is really cool and well made, I would be shocked to hear that a single
+    developer did it!
+    
+            </p>
+            <div
+              className="person-container"
+            >
+              <img
+                alt="Beard Guy"
+                src="images/testimonials/person1.jpg"
+              />
+              <p>
+                Beard Guy
+                , 
+                Somewhere
+              </p>
+            </div>
+          </div>
+        </TestimonialBox>
+        <TestimonialBox
+          key="1"
+          person={
+            Object {
+              "imgSrc": "images/testimonials/person2.jpg",
+              "location": "Somewhere else",
+              "name": "Girl",
+            }
+          }
+          text="
+    I Like the Demo Portfolio because it has been implemented using React and Typescript, that's pretty cool.
+    "
+        >
+          <div
+            className="testimonial-box"
+          >
+            <p
+              className="testimonial-text"
+            >
+              
+    I Like the Demo Portfolio because it has been implemented using React and Typescript, that's pretty cool.
+    
+            </p>
+            <div
+              className="person-container"
+            >
+              <img
+                alt="Girl"
+                src="images/testimonials/person2.jpg"
+              />
+              <p>
+                Girl
+                , 
+                Somewhere else
+              </p>
+            </div>
+          </div>
+        </TestimonialBox>
+        <TestimonialBox
+          key="2"
+          person={
+            Object {
+              "imgSrc": "images/testimonials/person3.jpg",
+              "location": "In a City",
+              "name": "John",
+            }
+          }
+          text="
+    This website is ok I guess.
+    "
+        >
+          <div
+            className="testimonial-box"
+          >
+            <p
+              className="testimonial-text"
+            >
+              
+    This website is ok I guess.
+    
+            </p>
+            <div
+              className="person-container"
+            >
+              <img
+                alt="John"
+                src="images/testimonials/person3.jpg"
+              />
+              <p>
+                John
+                , 
+                In a City
+              </p>
+            </div>
+          </div>
+        </TestimonialBox>
+        <TestimonialBox
+          key="3"
+          person={
+            Object {
+              "imgSrc": "images/testimonials/person4.jpg",
+              "location": "In another City",
+              "name": "Beanie Girl",
+            }
+          }
+          text="
+    I am not sure but I get a feeling that the webpack/babel setup for this react project has been set manually.
+    "
+        >
+          <div
+            className="testimonial-box"
+          >
+            <p
+              className="testimonial-text"
+            >
+              
+    I am not sure but I get a feeling that the webpack/babel setup for this react project has been set manually.
+    
+            </p>
+            <div
+              className="person-container"
+            >
+              <img
+                alt="Beanie Girl"
+                src="images/testimonials/person4.jpg"
+              />
+              <p>
+                Beanie Girl
+                , 
+                In another City
+              </p>
+            </div>
+          </div>
+        </TestimonialBox>
+      </div>
+    </div>
+  </section>
+</TestimonialsSection>
+`;
