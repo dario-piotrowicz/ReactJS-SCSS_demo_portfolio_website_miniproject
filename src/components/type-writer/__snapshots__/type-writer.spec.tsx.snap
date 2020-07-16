@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testimonials section component should match its snapshot 1`] = `
+<TypeWriter
+  leadingFixedText="I am "
+  phrases={
+    Array [
+      "a test",
+    ]
+  }
+  waitTime={1000}
+>
+  <div
+    className="type-writer"
+  >
+    <h1>
+      <span
+        className="text"
+      >
+        I am 
+         
+      </span>
+    </h1>
+  </div>
+</TypeWriter>
+`;
